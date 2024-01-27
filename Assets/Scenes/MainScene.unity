@@ -696,18 +696,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crowd
       objectReference: {fileID: 0}
-    - target: {fileID: 4545595509312105958, guid: 01fdde4a81bd4de45aad899dc9729da6, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7619717029866256268, guid: 01fdde4a81bd4de45aad899dc9729da6, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 4545595509312105958, guid: 01fdde4a81bd4de45aad899dc9729da6, type: 3}
-    - {fileID: 7619717029866256268, guid: 01fdde4a81bd4de45aad899dc9729da6, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01fdde4a81bd4de45aad899dc9729da6, type: 3}
@@ -789,21 +779,9 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 272796805}
-    - target: {fileID: 714597513337414656, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 714597513337414656, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b318b72f745b4e74cbddf49702dda7ae, type: 2}
     - target: {fileID: 1346482968501178014, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
       propertyPath: m_Name
       value: Theatre
-      objectReference: {fileID: 0}
-    - target: {fileID: 1544796013149030901, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.2
       objectReference: {fileID: 0}
     - target: {fileID: 1865751989599605796, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
       propertyPath: m_LocalPosition.x
@@ -857,30 +835,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 272796805}
-    - target: {fileID: 7841493537070904461, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: -5264587846109074337, guid: 6c808c1d339a6e24a99f422d769ee473, type: 3}
     - target: {fileID: 8735574956681317961, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 90105560}
-    - target: {fileID: 8848335702671150329, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: -5264587846109074337, guid: 6c808c1d339a6e24a99f422d769ee473, type: 3}
-    - target: {fileID: 9127135016514018228, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 9127135016514018228, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 9127135016514018228, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.01
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
