@@ -494,6 +494,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   target: {fileID: 4174984464233224}
+  throwable: {fileID: 0}
+  throwPoint: {fileID: 0}
+  throwablePrefab: {fileID: 0}
+  lineRenderer: {fileID: 0}
+  strenght: 0
+  angle: 0
 --- !u!143 &309779875
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1435,7 +1441,79 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 0b7a082c20429504688c50400863cd71, type: 3}
     volume: 0.326
     pitch: 1
-  sfxSounds: []
+  sfxSounds:
+  - name: Fail
+    clip: {fileID: 8300000, guid: da8c70faa00b0d042be97ebe7d145f87, type: 3}
+    volume: 0
+    pitch: 0
+  - name: Booing
+    clip: {fileID: 8300000, guid: 3f32381991ad1d24d9020ee5fe1deba4, type: 3}
+    volume: 0
+    pitch: 0
+  - name: Laugh
+    clip: {fileID: 8300000, guid: ac7052fc9e0a76940a84ec603abb6b4c, type: 3}
+    volume: 0
+    pitch: 0
+  - name: Drop
+    clip: {fileID: 8300000, guid: 7f2542b8e4617264c8c8e89272232d91, type: 3}
+    volume: 0
+    pitch: 0
+  - name: MetalImpact
+    clip: {fileID: 8300000, guid: fc50ce5d167325640a8e8a66ab11383e, type: 3}
+    volume: 0
+    pitch: 0
+  - name: Woosh
+    clip: {fileID: 8300000, guid: e74439a308c7bc9419190fce6691abb3, type: 3}
+    volume: 0
+    pitch: 0
+  - name: Anvil
+    clip: {fileID: 8300000, guid: 1250626a990563043b54079ef6a3766f, type: 3}
+    volume: 0
+    pitch: 0
+  - name: Banana
+    clip: {fileID: 8300000, guid: b783c27265fe1124194f8a36c57d77e7, type: 3}
+    volume: 0
+    pitch: 0
+  - name: Chair
+    clip: {fileID: 8300000, guid: a9cad4b43ba284948883e77d35d7f8dc, type: 3}
+    volume: 0
+    pitch: 0
+  - name: FruitOne
+    clip: {fileID: 8300000, guid: 7e590684af0e4e54db8140692a359ea0, type: 3}
+    volume: 0
+    pitch: 0
+  - name: FruitTwo
+    clip: {fileID: 8300000, guid: ea65d14337635cd4dbcfff16a3c1eb2d, type: 3}
+    volume: 0
+    pitch: 0
+  - name: FruitThree
+    clip: {fileID: 8300000, guid: d1f82eb82079ab34b8efeb8f254472ea, type: 3}
+    volume: 0
+    pitch: 0
+  - name: FruitFour
+    clip: {fileID: 8300000, guid: 9c34f08d965023a4486f9f52c50a9e9e, type: 3}
+    volume: 0
+    pitch: 0
+  - name: Splash
+    clip: {fileID: 8300000, guid: 45f44ab34d3735745803ffcbcc955062, type: 3}
+    volume: 0
+    pitch: 0
+  - name: Gun
+    clip: {fileID: 8300000, guid: 7e4f2c7800dfe8640936fba7ed7dd83c, type: 3}
+    volume: 0
+    pitch: 0
+  - name: ReflectorOne
+    clip: {fileID: 8300000, guid: 688980aa764c80644a9519095cf65967, type: 3}
+    volume: 0
+    pitch: 0
+  - name: ReflectorTwo
+    clip: {fileID: 8300000, guid: f92060837c3948b4b989b8217a76f927, type: 3}
+    volume: 0
+    pitch: 0
+  - name: Tomato
+    clip: {fileID: 8300000, guid: c35d076bfa4258040a1a356689cb7e7e, type: 3}
+    volume: 0
+    pitch: 0
   ambSounds:
   - name: Crowd
     clip: {fileID: 8300000, guid: 9b5940b0c8db2fb47acc43770213839c, type: 3}
