@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9131263763884186578}
   - component: {fileID: 7925511560816959116}
   m_Layer: 0
-  m_Name: Chrowd Child
+  m_Name: Crowd Child
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

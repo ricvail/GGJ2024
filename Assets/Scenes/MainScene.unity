@@ -567,7 +567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3394973376422791167, guid: 9ee4ae427923d9e44b9b405758f6a601, type: 3}
       propertyPath: m_Name
-      value: Chrowd Child
+      value: Crowd Child
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -694,7 +694,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3394973376422791167, guid: 01fdde4a81bd4de45aad899dc9729da6, type: 3}
       propertyPath: m_Name
-      value: Chrowd
+      value: Crowd
       objectReference: {fileID: 0}
     - target: {fileID: 4545595509312105958, guid: 01fdde4a81bd4de45aad899dc9729da6, type: 3}
       propertyPath: m_IsActive
