@@ -20,6 +20,7 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        PlayMusic("Music_Gameplay");
     }
 
     public void PlayMusic(string name)
@@ -33,13 +34,10 @@ public class AudioManager : MonoBehaviour
         else
         {
             musicSource.clip = s.clip;
+            musicSource.volume = s.volume;  
+            musicSource.pitch = s.pitch;    
             musicSource.Play();
         }
-    }
-
-    private void Awake()
-    {
-        PlayMusic("Music_Gameplay");
     }
 
     public void PlaySFX(string name)
@@ -51,6 +49,8 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
+            sfxSource.volume = s.volume;
+            sfxSource.pitch = s.pitch;
             sfxSource.PlayOneShot(s.clip);
         }
     }
