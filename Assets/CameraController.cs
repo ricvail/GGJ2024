@@ -30,4 +30,5 @@ public class CameraController : MonoBehaviour
         }
         Camera.main.transform.LookAt(player.position + (focus.position-player.position)/2);
     }
+
 }
