@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 4175102123972364857}
-  m_IndirectSpecularColor: {r: 0.4366756, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -517,79 +517,6 @@ LightingSettings:
   m_PVRTiledBaking: 0
   m_NumRaysToShootPerTexel: -1
   m_RespectSceneVisibilityWhenBakingGI: 0
---- !u!1001 &408541065
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1999586390570816, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_Name
-      value: SM_Prop_Fence_Painted_Pole_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -33.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 12.76
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7022777
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7022777
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.08249865
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.08249865
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -13.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4635018803182502, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dc59674eaf8cfc843bc679928fbea696, type: 3}
 --- !u!1001 &1100280854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -862,9 +789,21 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 272796805}
+    - target: {fileID: 714597513337414656, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 714597513337414656, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b318b72f745b4e74cbddf49702dda7ae, type: 2}
     - target: {fileID: 1346482968501178014, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
       propertyPath: m_Name
       value: Theatre
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544796013149030901, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2
       objectReference: {fileID: 0}
     - target: {fileID: 1865751989599605796, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
       propertyPath: m_LocalPosition.x
@@ -918,10 +857,30 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 272796805}
+    - target: {fileID: 7841493537070904461, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5264587846109074337, guid: 6c808c1d339a6e24a99f422d769ee473, type: 3}
     - target: {fileID: 8735574956681317961, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 90105560}
+    - target: {fileID: 8848335702671150329, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5264587846109074337, guid: 6c808c1d339a6e24a99f422d769ee473, type: 3}
+    - target: {fileID: 9127135016514018228, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 9127135016514018228, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 9127135016514018228, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -936,4 +895,3 @@ SceneRoots:
   - {fileID: 757166828415503418}
   - {fileID: 1188204990475009412}
   - {fileID: 1100280854}
-  - {fileID: 408541065}
