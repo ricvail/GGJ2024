@@ -14,7 +14,7 @@ TagManager:
   - CameraSafeArea
   - RaycastCylinder
   - Ignore aim raycast
-  - 
+  - Player
   - 
   - 
   - 

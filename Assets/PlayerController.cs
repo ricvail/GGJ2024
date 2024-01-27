@@ -18,12 +18,12 @@ public class PlayerController : MonoBehaviour
     public float strenght;
     public float angle;
 
-    private float baseHeight;
+    private bool isThrowing = false;
+
 
     void Start()
     {
         _characterController = GetComponent<CharacterController>();
-        baseHeight = transform.position.y;
     }
 
     // Update is called once per frame
@@ -40,16 +40,24 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            throwable = Instantiate(throwablePrefab, throwPoint);
-            drawTrajectory();
+            
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, 2000, LayerMask.GetMask("Player")))
+            {
+                isThrowing = true;
+                throwable = Instantiate(throwablePrefab, throwPoint);
+                drawTrajectory();
+            }
+
         }
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && isThrowing)
         {
             drawTrajectory();
         }
 
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) && isThrowing)
         {
             //Rigidbody throwable = Instantiate(this.throwable, this.throwable.position, Quaternion.identity);
 
@@ -59,6 +67,7 @@ public class PlayerController : MonoBehaviour
             throwable.transform.SetParent(null, true);
             throwable.AddForce(dir * strenght, ForceMode.Impulse);
             lineRenderer.enabled = false;
+            isThrowing = false;
         }
     }
 
@@ -95,9 +104,11 @@ public class PlayerController : MonoBehaviour
         if (Physics.Raycast(ray, out hit, 2000, LayerMask.GetMask("RaycastCylinder")))
         {
             Vector3 direction = hit.point;
-            Debug.DrawLine(Camera.main.transform.position, direction, Color.blue);
+            //Debug.DrawLine(Camera.main.transform.position, direction, Color.blue);
             direction -= transform.position;
+            strenght = direction.magnitude;
             direction.Normalize();
+            direction *= -1;
             direction.y = Mathf.Cos(angle);
             direction.Normalize();
             return direction;
