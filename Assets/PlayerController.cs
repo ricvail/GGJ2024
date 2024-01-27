@@ -14,12 +14,16 @@ public class PlayerController : MonoBehaviour
 
     public Rigidbody throwablePrefab;
     public LineRenderer lineRenderer;
-    
+
     public float strenght;
     public float angle;
+
+    private float baseHeight;
+
     void Start()
     {
         _characterController = GetComponent<CharacterController>();
+        baseHeight = transform.position.y;
     }
 
     // Update is called once per frame
@@ -29,27 +33,26 @@ public class PlayerController : MonoBehaviour
         movDirection.y = 0;
         movDirection.Normalize();
         Vector3 movPerp = Vector3.Cross(movDirection, Vector3.up);
-        Vector3 mov = - Input.GetAxis("Vertical") * movDirection + Input.GetAxis("Horizontal") * movPerp;
+        Vector3 mov = -Input.GetAxis("Vertical") * movDirection + Input.GetAxis("Horizontal") * movPerp;
         mov.Normalize();
-        _characterController.Move(mov * (speed * Time.deltaTime));
-        
-        
-        
-        
+        _characterController.SimpleMove(mov * (speed));
+
+
         if (Input.GetMouseButtonDown(0))
         {
             throwable = Instantiate(throwablePrefab, throwPoint);
             drawTrajectory();
         }
+
         if (Input.GetMouseButton(0))
         {
             drawTrajectory();
         }
-        
+
         if (Input.GetMouseButtonUp(0))
         {
             //Rigidbody throwable = Instantiate(this.throwable, this.throwable.position, Quaternion.identity);
-            
+
             Vector3 dir = getDirection();
             throwable.isKinematic = false;
             throwable.useGravity = true;
@@ -73,11 +76,18 @@ public class PlayerController : MonoBehaviour
             point.y = throwPoint.position.y + startVelocity.y * t + (Physics.gravity.y / 2f * t * t);
             lineRenderer.SetPosition(i, point);
             Vector3 lastPos = lineRenderer.GetPosition(i - 1);
-            
+            if (Physics.Raycast(lastPos, (point - lastPos).normalized, out RaycastHit hit,
+                    (point - lastPos).magnitude, LayerMask.GetMask("Default")) )
+            {
+                lineRenderer.SetPosition(i, hit.point);
+                lineRenderer.positionCount = i + 1;
+                Debug.Log(hit.transform.gameObject.name);
+                return;
+            }
         }
     }
-    
-    
+
+
     private Vector3 getDirection()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
