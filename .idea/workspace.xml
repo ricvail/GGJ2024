@@ -1,76 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae3fc7d-49c1-4e88-aef2-38d26304dacf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Bounce.physicMaterial" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Bounce.physicMaterial.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Obj/THEATRE_3.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Obj/THEATRE_4.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rat.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Rat.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/scene1test.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/scene1test.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/Red_brick_wall_texture.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/Red_brick_wall_texture.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/T_Rat_1_LowRes.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/T_Rat_1_LowRes.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/wood floor.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/wood floor.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Red_brick_wall_texture.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Red_brick_wall_texture.JPG.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/T_Rat_1_LowRes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/T_Rat_1_LowRes.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog/Curtains_curtains_rog_BaseColor.1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog/Curtains_curtains_rog_BaseColor.1001.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog/Curtains_curtains_rog_Height.1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog/Curtains_curtains_rog_Height.1001.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog/Curtains_curtains_rog_Metallic.1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog/Curtains_curtains_rog_Metallic.1001.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog/Curtains_curtains_rog_Normal.1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog/Curtains_curtains_rog_Normal.1001.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog/Curtains_curtains_rog_Roughness.1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog/Curtains_curtains_rog_Roughness.1001.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog/Materials/Curtains_curtains_rog_BaseColor.1001.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains rog/Materials/Curtains_curtains_rog_BaseColor.1001.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Curtains_Curtains1_BaseColor.1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Curtains_Curtains1_BaseColor.1001.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Curtains_Curtains1_Height.1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Curtains_Curtains1_Height.1001.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Curtains_Curtains1_Metallic.1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Curtains_Curtains1_Metallic.1001.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Curtains_Curtains1_Normal.1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Curtains_Curtains1_Normal.1001.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Curtains_Curtains1_Roughness.1001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Curtains_Curtains1_Roughness.1001.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Materials/Curtains_Curtains1_BaseColor.1001.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Materials/Curtains_Curtains1_BaseColor.1001.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Materials/Curtains_Curtains1_Roughness.1001.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Texture curtains/Materials/Curtains_Curtains1_Roughness.1001.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/wall brick.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/wall brick.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/wood floor.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/wood floor.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/Spawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/Spawner.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obj/Body shape characters.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obj/Body shape characters.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obj/Body shape characters.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obj/Body shape characters.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obj/Rat.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obj/Rat.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obj/Rat.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obj/Rat.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obj/THEATRE_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obj/THEATRE_1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obj/THEATRE_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obj/THEATRE_2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obj/THEATRE_5.mtl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obj/THEATRE_5.mtl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obj/THEATRE_5.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obj/THEATRE_5.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obj/Theatre texture.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obj/Theatre texture.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obj/Theatre texture.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obj/Theatre texture.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +26,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
@@ -104,6 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706356200313</updated>
       <workItem from="1706356202001" duration="9000" />
+      <workItem from="1706377045378" duration="883000" />
     </task>
     <servers />
   </component>
