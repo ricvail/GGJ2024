@@ -418,7 +418,7 @@ MonoBehaviour:
   MediumEnemy: {fileID: 3539762473131318798, guid: 524f6456dac57f34ab5f71172badaebc, type: 3}
   HardEnemy: {fileID: 3539762473131318798, guid: 524f6456dac57f34ab5f71172badaebc, type: 3}
   BossEnemy: {fileID: 3539762473131318798, guid: 524f6456dac57f34ab5f71172badaebc, type: 3}
-  totalEnemy: 1
+  totalEnemy: 15
   Spawn: 1
   spawnType: 0
   waveTimer: 30
@@ -438,6 +438,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1483738225 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3683349298973100554, guid: 995cbc94603fa1c4280c6c6ab8e9b7bf, type: 3}
+  m_PrefabInstance: {fileID: 1607691851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1483738229
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483738225}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5066591556825442689, guid: 995cbc94603fa1c4280c6c6ab8e9b7bf, type: 3}
 --- !u!1001 &1607691851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -557,6 +584,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -1731843121526356565, guid: 995cbc94603fa1c4280c6c6ab8e9b7bf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1685819097}
+    - targetCorrespondingSourceObject: {fileID: -3683349298973100554, guid: 995cbc94603fa1c4280c6c6ab8e9b7bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1483738229}
   m_SourcePrefab: {fileID: 100100000, guid: 995cbc94603fa1c4280c6c6ab8e9b7bf, type: 3}
 --- !u!1 &1685819093 stripped
 GameObject:
