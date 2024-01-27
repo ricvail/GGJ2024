@@ -4,8 +4,24 @@ using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager Instance;
+    
     public Sound[] musicSounds, sfxSounds;
     public AudioSource musicSource, sfxSource;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        PlayMusic("Music_Gameplay");
+    }
 
     public void PlayMusic(string name)
     {
@@ -18,12 +34,24 @@ public class AudioManager : MonoBehaviour
         else
         {
             musicSource.clip = s.clip;
+            musicSource.volume = s.volume;  
+            musicSource.pitch = s.pitch;    
             musicSource.Play();
         }
     }
 
-    private void Awake()
+    public void PlaySFX(string name)
     {
-        PlayMusic("Music_Gameplay");
+        Sound s = Array.Find(sfxSounds, x => x.name == name);
+        if (s == null)
+        {
+            Debug.Log("Sound not Found");
+        }
+        else
+        {
+            sfxSource.volume = s.volume;
+            sfxSource.pitch = s.pitch;
+            sfxSource.PlayOneShot(s.clip);
+        }
     }
 }

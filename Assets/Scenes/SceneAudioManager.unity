@@ -154,7 +154,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1433,11 +1433,11 @@ MonoBehaviour:
     pitch: 1
   - name: Music_Gameplay
     clip: {fileID: 8300000, guid: 0b7a082c20429504688c50400863cd71, type: 3}
-    volume: 0.5
+    volume: 1
     pitch: 1
   sfxSounds:
-  - name: 
-    clip: {fileID: 0}
+  - name: Crowd
+    clip: {fileID: 8300000, guid: 9b5940b0c8db2fb47acc43770213839c, type: 3}
     volume: 0
     pitch: 0
   - name: 
