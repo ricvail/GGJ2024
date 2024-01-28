@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
         Vector3 mov = -Input.GetAxis("Vertical") * movDirection + Input.GetAxis("Horizontal") * movPerp;
         mov.Normalize();
         _characterController.SimpleMove(mov * (speed));
+        
 
         if (mov == Vector3.zero)
         {
@@ -46,7 +47,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             animator.SetBool("AnyKeyDown", true);
-
+            transform.rotation = Quaternion.LookRotation(mov, Vector3.up);
         }
 
 
