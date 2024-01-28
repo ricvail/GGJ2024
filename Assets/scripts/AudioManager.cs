@@ -76,4 +76,9 @@ public class AudioManager : MonoBehaviour
             ambSource.Play();
         }
     }
+
+    public void StopMusic()
+    {
+        musicSource.Stop();
+    }
 }

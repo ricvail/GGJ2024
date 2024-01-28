@@ -39,6 +39,8 @@ public class CutsceneController : MonoBehaviour
             }
             else if (i == 4)
             {
+                AudioManager.Instance.StopMusic();
+                AudioManager.Instance.PlaySFX("Scale");
                 AudioManager.Instance.PlaySFX("Booing");
             }
             else if (i ==5)
