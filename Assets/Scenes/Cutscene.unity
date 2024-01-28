@@ -193,7 +193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3686644675385547828, guid: d5682b02419930847b9e1af429155caf, type: 3}
       propertyPath: sfxSounds.Array.data[19].volume
-      value: 0.882
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3686644675385547828, guid: d5682b02419930847b9e1af429155caf, type: 3}
       propertyPath: sfxSounds.Array.data[21].volume
