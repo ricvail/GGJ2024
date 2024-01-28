@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     private bool isThrowing = false;
 
 
+    public Animator animator;
+
     void Start()
     {
         _characterController = GetComponent<CharacterController>();
@@ -36,6 +38,16 @@ public class PlayerController : MonoBehaviour
         Vector3 mov = -Input.GetAxis("Vertical") * movDirection + Input.GetAxis("Horizontal") * movPerp;
         mov.Normalize();
         _characterController.SimpleMove(mov * (speed));
+
+        if (mov == Vector3.zero)
+        {
+            animator.SetBool("AnyKeyDown", false);
+        } 
+        else
+        {
+            animator.SetBool("AnyKeyDown", true);
+
+        }
 
 
         if (Input.GetMouseButtonDown(0))
