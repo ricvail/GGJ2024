@@ -25,11 +25,37 @@ public class CutsceneController : MonoBehaviour
         {
             image.sprite = scenes[i];
             jokeText.gameObject.SetActive(i == jokeScene);
+            if (i == 1)
+            {
+                AudioManager.Instance.PlaySFX("Mh");
+            } 
+            else if (i == 2)
+            {
+                AudioManager.Instance.PlaySFX("Applause");
+            }
+            else if (i == 3)
+            {
+                AudioManager.Instance.PlaySFX("Voice");
+            }
+            else if (i == 4)
+            {
+                AudioManager.Instance.PlaySFX("Booing");
+            }
+            else if (i ==5)
+            {
+                AudioManager.Instance.PlaySFX("Grunt");
+            }
         }
         else
         {
             SceneManager.LoadScene(nextSceneName);
         }
     }
-    
+
+    private void Start()
+    {
+        AudioManager.Instance.PlayMusic("Theatre");
+        AudioManager.Instance.PlaySFX("Happy");
+    }
+
 }
