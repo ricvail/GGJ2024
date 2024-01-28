@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,13 +7,26 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController Instance;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private CharacterController _characterController;
     public float speed;
     public Transform target;
     public Rigidbody throwable;
     public Transform throwPoint;
 
-    public Rigidbody throwablePrefab;
     public LineRenderer lineRenderer;
 
     public float strenght;
@@ -38,6 +52,7 @@ public class PlayerController : MonoBehaviour
         Vector3 mov = -Input.GetAxis("Vertical") * movDirection + Input.GetAxis("Horizontal") * movPerp;
         mov.Normalize();
         _characterController.SimpleMove(mov * (speed));
+        
 
         if (mov == Vector3.zero)
         {
@@ -46,11 +61,11 @@ public class PlayerController : MonoBehaviour
         else
         {
             animator.SetBool("AnyKeyDown", true);
-
+            transform.rotation = Quaternion.LookRotation(mov, Vector3.up);
         }
 
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && throwable != null)
         {
             
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -58,7 +73,6 @@ public class PlayerController : MonoBehaviour
             if (Physics.Raycast(ray, out hit, 2000, LayerMask.GetMask("Player")))
             {
                 isThrowing = true;
-                throwable = Instantiate(throwablePrefab, throwPoint);
                 drawTrajectory();
             }
 
@@ -80,6 +94,7 @@ public class PlayerController : MonoBehaviour
             throwable.AddForce(dir * strenght, ForceMode.Impulse);
             lineRenderer.enabled = false;
             isThrowing = false;
+            throwable = null;
         }
     }
 
