@@ -39,6 +39,8 @@ public class tutorialSignScript : MonoBehaviour
     {
         yield return new WaitForSeconds(seconds);
         Debug.Log("Animation over");
-        SceneManager.LoadScene("Level1");
+        CutsceneController.nextSceneName = "Level1";
+        CutsceneController.joke = "Hello World";
+        SceneManager.LoadScene("Cutscene");
     }
 }
