@@ -27,4 +27,6 @@ public class TutorialScript : MonoBehaviour
             canvas.enabled = false;
         }
     }
+
+    
 }
