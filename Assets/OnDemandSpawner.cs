@@ -27,6 +27,7 @@ public class OnDemandSpawner : MonoBehaviour
             if (Input.GetKeyDown("e") && playerDistance <= range)
             {
                 cooldown = timer;
+                AudioManager.Instance.PlaySFX("Grab");
                 PlayerController.Instance.throwable =
                     Instantiate(throwablePrefab, PlayerController.Instance.throwPoint);
                 if (destroyParentOnPickup)

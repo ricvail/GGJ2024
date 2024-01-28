@@ -285,6 +285,10 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 8912d707c93623845af2321e0f59b437, type: 3}
     volume: 0.5
     pitch: 1
+  - name: Grab
+    clip: {fileID: 8300000, guid: 2500019fc6d12454f9001b9b48128843, type: 3}
+    volume: 0.5
+    pitch: 1
   ambSounds:
   - name: Crowd
     clip: {fileID: 8300000, guid: 9b5940b0c8db2fb47acc43770213839c, type: 3}

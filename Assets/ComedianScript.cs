@@ -10,12 +10,25 @@ public class ComedianScript : MonoBehaviour
     
     public Animator curtains;
 
+    private void Start()
+    {
+        AudioManager.Instance.PlayMusic("Music_Gameplay");
+    }
+
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Throwable"))
         {
             curtains.SetBool("isGameOver", true);
             StartCoroutine(delayedLoadScene(3));
+            if (other.gameObject.name== "SMThrowablePeach_01")
+            {
+                AudioManager.Instance.PlaySFX("Tomato");
+            }
+            if (other.gameObject.name == "ThrowableCan")
+            {
+                AudioManager.Instance.PlaySFX("Rebound");
+            }
         }
     }
 
