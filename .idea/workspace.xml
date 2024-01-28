@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae3fc7d-49c1-4e88-aef2-38d26304dacf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Obj/THEATRE WALLS.mtl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obj/THEATRE WALLS.mtl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Obj/THEATRE WALLS.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obj/THEATRE WALLS.obj.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CutsceneImages/Cutscene_1d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CutsceneImages/Cutscene_1d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cutscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cutscene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
       <workItem from="1706356202001" duration="9000" />
       <workItem from="1706377045378" duration="883000" />
       <workItem from="1706385028609" duration="620000" />
+      <workItem from="1706442126066" duration="143000" />
     </task>
     <servers />
   </component>
