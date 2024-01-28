@@ -261,6 +261,14 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 4edf114c272c7bf428c7668dd9c65073, type: 3}
     volume: 0.5
     pitch: 1
+  - name: Grunt
+    clip: {fileID: 8300000, guid: f6fef1e1c117ee6459f8d37d2d2dea56, type: 3}
+    volume: 0.5
+    pitch: 1
+  - name: Rebound
+    clip: {fileID: 8300000, guid: 2005709cdc0803a4aac4d41017975509, type: 3}
+    volume: 0.5
+    pitch: 1
   ambSounds:
   - name: Crowd
     clip: {fileID: 8300000, guid: 9b5940b0c8db2fb47acc43770213839c, type: 3}
