@@ -11,6 +11,8 @@ public class OnDemandSpawner : MonoBehaviour
     public float range;
     private float cooldown;
 
+    public bool destroyParentOnPickup;
+
     private void Awake()
     {
         canvas = GetComponent<Canvas>();
@@ -27,6 +29,10 @@ public class OnDemandSpawner : MonoBehaviour
                 cooldown = timer;
                 PlayerController.Instance.throwable =
                     Instantiate(throwablePrefab, PlayerController.Instance.throwPoint);
+                if (destroyParentOnPickup)
+                {
+                    Destroy(transform.parent.gameObject);
+                }
             }
             else
             {
