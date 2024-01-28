@@ -41,7 +41,7 @@ AudioSource:
   m_GameObject: {fileID: 5472721440127062696}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 2666065093940367717, guid: 3e8f9d3a00ef89147a4410f71d9b1f02, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -159,8 +159,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1051727665142075430}
-  - {fileID: 5419687939305382498}
   - {fileID: 8420552276303951325}
+  - {fileID: 5419687939305382498}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3686644675385547828
@@ -182,6 +182,10 @@ MonoBehaviour:
     pitch: 1
   - name: Music_Gameplay
     clip: {fileID: 8300000, guid: 0b7a082c20429504688c50400863cd71, type: 3}
+    volume: 0.326
+    pitch: 1
+  - name: Theatre
+    clip: {fileID: 8300000, guid: 40d36be538cef6d4fb7cbeb0720fdc07, type: 3}
     volume: 0.326
     pitch: 1
   sfxSounds:
@@ -269,6 +273,18 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 2005709cdc0803a4aac4d41017975509, type: 3}
     volume: 0.5
     pitch: 1
+  - name: Mh
+    clip: {fileID: 8300000, guid: 7f8328f04b752d040b294ed073212f21, type: 3}
+    volume: 0.5
+    pitch: 1
+  - name: Applause
+    clip: {fileID: 8300000, guid: c90209a54cf61984db1001fb02e3968e, type: 3}
+    volume: 0.5
+    pitch: 1
+  - name: Happy
+    clip: {fileID: 8300000, guid: 8912d707c93623845af2321e0f59b437, type: 3}
+    volume: 0.5
+    pitch: 1
   ambSounds:
   - name: Crowd
     clip: {fileID: 8300000, guid: 9b5940b0c8db2fb47acc43770213839c, type: 3}
@@ -302,7 +318,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6242841119614370750}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -318,7 +334,7 @@ AudioSource:
   m_GameObject: {fileID: 6242841119614370750}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -5906531105709529073, guid: 3e8f9d3a00ef89147a4410f71d9b1f02, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -446,7 +462,7 @@ AudioSource:
   m_GameObject: {fileID: 7873180966422495384}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 6718767981149324260, guid: 3e8f9d3a00ef89147a4410f71d9b1f02, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
