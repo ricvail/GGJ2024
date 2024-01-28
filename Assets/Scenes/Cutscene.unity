@@ -123,6 +123,103 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &53273364
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1494588754205286736, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494588754205286736, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494588754205286736, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494588754205286736, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494588754205286736, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494588754205286736, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494588754205286736, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494588754205286736, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494588754205286736, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494588754205286736, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686644675385547828, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: sfxSounds.Array.size
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686644675385547828, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: sfxSounds.Array.data[24].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ba14f442347c4d543b767ef689865683, type: 3}
+    - target: {fileID: 3686644675385547828, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: sfxSounds.Array.data[24].name
+      value: Voice
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686644675385547828, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: sfxSounds.Array.data[1].volume
+      value: 0.823
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686644675385547828, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: sfxSounds.Array.data[24].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686644675385547828, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: sfxSounds.Array.data[19].volume
+      value: 0.882
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686644675385547828, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: sfxSounds.Array.data[21].volume
+      value: 0.941
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686644675385547828, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: sfxSounds.Array.data[22].volume
+      value: 0.744
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686644675385547828, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: sfxSounds.Array.data[23].volume
+      value: 0.823
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686644675385547828, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: sfxSounds.Array.data[24].volume
+      value: 0.764
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181393085875605003, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d5682b02419930847b9e1af429155caf, type: 3}
 --- !u!1 &128093127
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,3 +1085,4 @@ SceneRoots:
   - {fileID: 637084302}
   - {fileID: 1835018952}
   - {fileID: 593541134}
+  - {fileID: 53273364}

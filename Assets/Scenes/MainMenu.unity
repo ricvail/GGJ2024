@@ -593,10 +593,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3686644675385547828, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: sfxSounds.Array.data[18].pitch
+      value: 0.82
+      objectReference: {fileID: 0}
     - target: {fileID: 6181393085875605003, guid: d5682b02419930847b9e1af429155caf, type: 3}
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7640152383679622311, guid: d5682b02419930847b9e1af429155caf, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 3e8f9d3a00ef89147a4410f71d9b1f02, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
