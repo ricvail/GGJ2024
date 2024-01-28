@@ -257,6 +257,10 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: c35d076bfa4258040a1a356689cb7e7e, type: 3}
     volume: 0.5
     pitch: 1
+  - name: Throw
+    clip: {fileID: 8300000, guid: 4edf114c272c7bf428c7668dd9c65073, type: 3}
+    volume: 0.5
+    pitch: 1
   ambSounds:
   - name: Crowd
     clip: {fileID: 8300000, guid: 9b5940b0c8db2fb47acc43770213839c, type: 3}

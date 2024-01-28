@@ -95,6 +95,7 @@ public class PlayerController : MonoBehaviour
             lineRenderer.enabled = false;
             isThrowing = false;
             throwable = null;
+            AudioManager.Instance.PlaySFX("Throw");
         }
     }
 

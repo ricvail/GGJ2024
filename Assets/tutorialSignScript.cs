@@ -9,7 +9,12 @@ public class tutorialSignScript : MonoBehaviour
 
     public Canvas canvas;
     public Animator curtains;
-    
+
+    private void Start()
+    {
+        AudioManager.Instance.PlayMusic("Music_Menu");
+    }
+
     private void Update()
     {
         canvas.transform.LookAt(Camera.main.transform.position);
