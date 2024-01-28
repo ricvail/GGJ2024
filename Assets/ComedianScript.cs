@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class ComedianScript : MonoBehaviour
 {
 
+    public string nextJoke, nextScene;
+    
     public Animator curtains;
 
     private void OnCollisionEnter(Collision other)
@@ -23,8 +25,8 @@ public class ComedianScript : MonoBehaviour
         GetComponent<Animator>().enabled = false;
         yield return new WaitForSeconds(seconds);
         Debug.Log("Animation over");
-        CutsceneController.nextSceneName = "Level2";
-        CutsceneController.joke = "I am addicted to drinking brake fluid! But it's okay, I can stop any time.";
+        CutsceneController.nextSceneName = nextScene;
+        CutsceneController.joke = nextJoke;
         SceneManager.LoadScene("Cutscene");
     }
 }

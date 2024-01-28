@@ -7088,6 +7088,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 550ee6c61ab79b24589809790680d3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextJoke: I am addicted to drinking brake fluid! But it's okay, I can stop any
+    time.
+  nextScene: Level2
   curtains: {fileID: 1336653341}
 --- !u!108 &4175102123972364857 stripped
 Light:
