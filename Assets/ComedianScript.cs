@@ -19,6 +19,8 @@ public class ComedianScript : MonoBehaviour
 
     IEnumerator delayedLoadScene(float seconds)
     {
+        GetComponent<Rigidbody>().isKinematic = false;
+        GetComponent<Animator>().enabled = false;
         yield return new WaitForSeconds(seconds);
         Debug.Log("Animation over");
         CutsceneController.nextSceneName = "Level2";

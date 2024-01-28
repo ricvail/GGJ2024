@@ -4384,6 +4384,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00332c035e0afe74aa3cf07d8d13d45b, type: 3}
+--- !u!95 &1336653341 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7849358223653728280, guid: 00332c035e0afe74aa3cf07d8d13d45b, type: 3}
+  m_PrefabInstance: {fileID: 1336653340}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1361905584 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1243025191719777442, guid: 01fdde4a81bd4de45aad899dc9729da6, type: 3}
@@ -7083,7 +7088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 550ee6c61ab79b24589809790680d3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curtains: {fileID: 0}
+  curtains: {fileID: 1336653341}
 --- !u!108 &4175102123972364857 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 6642412945641602756, guid: e15ae85a5ec258f43b45ae3eba2cb361, type: 3}
