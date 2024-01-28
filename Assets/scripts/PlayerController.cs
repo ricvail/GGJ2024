@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
     public float strenght;
     public float angle;
 
-    private bool isThrowing = false;
+    public bool isThrowing = false;
 
 
     public Animator animator;
